@@ -95,7 +95,7 @@ define([
                     new SimpleFillSymbol("solid", null, new Color([255, 0, 255, 0.75]) // fuschia lakes!
                 ));
               rajatsThis = this;
-              var queryTask = new QueryTask('https://services6.arcgis.com/aCvWTD6jxu9gjnYb/arcgis/rest/services/DJBWardsClassified/FeatureServer/0');
+              var queryTask = new QueryTask('https://services3.arcgis.com/JfxAj7Jck51QupVC/ArcGIS/rest/services/DelhiWardsForDJB/FeatureServer/0');
               var query = new Query();
               query.where = "WARDNAME='" + row.data.attributes.Ward_No + "'";
               query.outFields = ['*'];
